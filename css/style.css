@@ -84,7 +84,7 @@
   margin: 0px;
   padding: 0px;
   min-width: 1200px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -502,7 +502,7 @@ background-color: var(--basic-white);
 }
 
 .article-figure_name {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -510,7 +510,7 @@ background-color: var(--basic-white);
 }
 
 .old-price {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 18px;
@@ -521,7 +521,7 @@ background-color: var(--basic-white);
 
 
 .new-price {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 18px;
@@ -546,7 +546,7 @@ background-color: var(--basic-white);
 }
 
 .article_button-buy {
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -559,7 +559,7 @@ background-color: var(--basic-white);
 }
 
 .article_button-favorite {
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -610,7 +610,7 @@ background-color: var(--basic-white);
 .services_title {
   margin: 0px;
   padding: 0px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
@@ -621,7 +621,7 @@ background-color: var(--basic-white);
 .services_text {
   margin: 0px;
   padding: 0px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 24px;
@@ -631,7 +631,7 @@ background-color: var(--basic-white);
 .services_item_link {
   margin: 0px;
   padding: 0px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 700;
   font-size: 21px;
   line-height: 30px;
@@ -640,7 +640,7 @@ background-color: var(--basic-white);
 .services_box_title {
   margin: 0px;
   padding: 0px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
@@ -651,7 +651,7 @@ background-color: var(--basic-white);
 .services_box_text {
   margin: 0px;
   padding: 0px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 24px;
@@ -661,7 +661,7 @@ background-color: var(--basic-white);
 .services_box--guarantee-button {
   margin: 0px;
   padding: 0px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -722,7 +722,7 @@ background-color: var(--basic-white);
 .contacts_title {
   margin: 0px;
   padding: 0px;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
@@ -734,7 +734,7 @@ background-color: var(--basic-white);
 .contacts_text {
   margin: 0px;
   padding: 0px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 24px;
@@ -742,7 +742,7 @@ background-color: var(--basic-white);
 }
 
 .shipping-company-list_item {
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -910,7 +910,7 @@ background-color: var(--basic-white);
 }
 
 .contact-form {
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
