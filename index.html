@@ -112,7 +112,7 @@
     <div class="container-main-bg-light">
       <div class="container-main-first center">
         <section class="promo">
-          <h2 class="promo_title">Промо-блок</h2>
+          <h2 class="promo_title visually-hidden">Промо-блок</h2>
           <div class="promo-box-container">
             <div class="promo-box promo-box--materials">
               <h3 class="promo-box_title">Материалы</h3>
@@ -135,7 +135,7 @@
               <a href="#" class="promo-box_link link">Бесплатно</a>
             </div>
             <div class="promo-slider">
-              <div class="promo-slider_item promo-slider-item-perforator">
+              <div class="promo-slider_item promo-slider_item_current">
                 <div class="promo-slider_text">
                   <p class="promo-slider_title">ПЕРФОРАТОРЫ</p>
                   <p class="promo-slider_description">Настоящие мужские игрушки</p>
@@ -143,7 +143,7 @@
                 <img src="img/content/slider/perforator.jpg" width="620" height="266" alt="Работа с перфоратором"
                   class="promo-slider_image image">
               </div>
-              <div class="promo-slider_item promo-slider-item-drill">
+              <div class="promo-slider_item">
                 <div class="promo-slider_text">
                   <p class="promo-slider_title">ДРЕЛИ</p>
                   <p class="promo-slider_description">Соседям на радость!</p>
@@ -153,6 +153,10 @@
               </div>
               <button type="button" class="promo-slider_button-back"></button>
               <button type="button" class="promo-slider_button-next"></button>
+              <div class="slider-controls">
+                <button type="button" aria-label="Первый слайд"></button>
+                <button type="button" aria-label="Второй слайд" class="current"></button>
+              </div>
               <a href="catalog.html" class="promo-slider_link-catalog link">Открыть каталог</a>
             </div>
           </div>
@@ -165,10 +169,15 @@
           <ul class="best-articles_list list">
             <li class="articles_item">
               <a href="#" class="article_link link">
-                <img src="img/icons/catalog_new.svg" width="70" height="70" alt="Новинка" class="label-new image">
-                <img src="img/content/articles/snippet-32961-bosch-BFG-9000.jpg" width="184" height="164"
-                  alt="Перфоратор BOSCH BFG 9000" class="article-figure_image image article-figure_image_BFG9000">
-                <p class="article-figure_name">Перфоратор BOSCH <br> BFG 9000</p>
+                <img src="img/icons/catalog_new.svg" width="70" height="70" alt="Новинка"
+                  class="label-new image label-new-none">
+                <div class="product-title-box">
+                  <h3 class="article-figure_name">Перфоратор BOSCH <br> BFG 9000</h3>
+                  <div class="article-figure_image_wrapper">
+                    <img src="img/content/articles/snippet-32961-bosch-BFG-9000.jpg" width="184" height="164"
+                      alt="Перфоратор BOSCH BFG 9000" class="article-figure_image image article-figure_image_BFG9000">
+                  </div>
+                </div>
                 <p class="old-price">32500 Р.</p>
                 <p class="new-price">25500 Р.</p>
               </a>
@@ -178,23 +187,32 @@
             <li class="articles_item">
               <a href="#" class="article_link link">
                 <img src="img/icons/catalog_new.svg" width="70" height="70" alt="Новинка" class="label-new image">
-                <img src="img/content/articles/snippet-18927-bosch-bfg-3000.jpg" width="127" height="112"
-                  alt="Перфоратор BOSCH BFG 3000" class="article-figure_image image article-figure_image_BFG3000">
-                <p class="article-figure_name">Перфоратор BOSCH <br> BFG 3000</p>
+                <div class="product-title-box">
+                  <h3 class="article-figure_name article-figure_name_padding2">Перфоратор BOSCH <br> BFG 3000</h3>
+                  <div class="article-figure_image_wrapper">
+                    <img src="img/content/articles/snippet-18927-bosch-bfg-3000.jpg" width="127" height="112"
+                      alt="Перфоратор BOSCH BFG 3000" class="article-figure_image image article-figure_image_BFG3000">
+                  </div>
+                </div>
                 <p class="old-price">22500 Р.</p>
-                <p class="new-price">15500 Р.</p>
+                <p class="new-price new-price-padding2">15500 Р.</p>
               </a>
               <button type="button" class="article_button-buy">Купить</button>
               <button type="button" class="article_button-favorite">В закладки</button>
             </li>
             <li class="articles_item">
               <a href="#" class="article_link link">
-                <img src="img/icons/catalog_new.svg" width="70" height="70" alt="Новинка" class="label-new">
-                <img src="img/content/articles/snippet-945-bosch-BFG-6000.jpg" width="144" height="128"
-                  alt="Перфоратор BOSCH BFG 6000" class="article-figure_image image article-figure_image_BFG6000">
-                <p class="article-figure_name">Перфоратор BOSCH <br> BFG 6000</p>
+                <img src="img/icons/catalog_new.svg" width="70" height="70" alt="Новинка"
+                  class="label-new image label-new-none">
+                <div class="product-title-box">
+                  <h3 class="article-figure_name">Перфоратор BOSCH <br> BFG 6000</h3>
+                  <div class="article-figure_image_wrapper">
+                    <img src="img/content/articles/snippet-945-bosch-BFG-6000.jpg" width="144" height="128"
+                      alt="Перфоратор BOSCH BFG 6000" class="article-figure_image image article-figure_image_BFG6000">
+                  </div>
+                </div>
                 <p class="old-price">30500 Р.</p>
-                <p class="new-price">25500 Р.</p>
+                <p class="new-price new-price-padding2">25500 Р.</p>
               </a>
               <button type="button" class="article_button-buy">Купить</button>
               <button type="button" class="article_button-favorite">В закладки</button>
@@ -202,11 +220,15 @@
             <li class="articles_item">
               <a href="#" class="article_link link">
                 <img src="img/icons/catalog_new.svg" width="70" height="70" alt="Новинка" class="label-new image">
-                <img src="img/content/articles/snippet-18927-bosch-bfg-3000.jpg" width="127" height="112"
-                  alt="Перфоратор BOSCH BFG 2000" class="article-figure_image image article-figure_image_BFG2000">
-                <p class="article-figure_name">Перфоратор BOSCH <br> BFG 2000</p>
+                <div class="product-title-box">
+                  <h3 class="article-figure_name article-figure_name_padding2">Перфоратор BOSCH <br> BFG 2000</h3>
+                  <div class="article-figure_image_wrapper">
+                    <img src="img/content/articles/snippet-18927-bosch-bfg-3000.jpg" width="127" height="112"
+                      alt="Перфоратор BOSCH BFG 2000" class="article-figure_image image article-figure_image_BFG2000">
+                  </div>
+                </div>
                 <p class="old-price">22500 Р.</p>
-                <p class="new-price">12500 Р.</p>
+                <p class="new-price new-price-padding2">12500 Р.</p>
               </a>
               <button type="button" class="article_button-buy">Купить</button>
               <button type="button" class="article_button-favorite">В закладки</button>
@@ -280,7 +302,8 @@
           <div class="services-main-box">
             <ul class="services_list list">
               <li class="services_list_item">
-                <a href="#" class="services_item_link services_item_link--delivery link">Доставка</a>
+                <a href="#"
+                  class="services_item_link services_item_link--delivery link services_item_link_current">Доставка</a>
               </li>
               <li class="services_list_item">
                 <a href="#" class="services_item_link services_item_link--guarantee link">Гарантия</a>
@@ -297,18 +320,21 @@
                 поднимая его на ваш этаж!</p>
             </div>
             <div class="services_box services_box--guarantee">
-              <h3 class="services_box_title">Гарантия</h3>
-              <p class="services_box_text">Если купленный у нас товар поломается или заискрит,<br>
-                а также в случае пожара, спровоцированного его <br>возгоранием,
-                вы всегда можете быть уверены в нашей <br>гарантии.
+              <h3 class="services_box_title services_box_title--guarantee">Гарантия</h3>
+              <p class="services_box_text services_box_text--guarantee"><span class="line-height-26">Если купленный у
+                  нас товар поломается или заискрит,</span><br>
+                а также в случае пожара, спровоцированного его <br>возгоранием,&nbsp; вы всегда можете быть уверены в
+                нашей <br>гарантии.
                 Мы обменяем сгоревший товар на новый.<br>
-                Дом уж восстановите как-нибудь сами.</p>
+                <span class="line-height-26">Дом уж восстановите как-нибудь сами.</span>
+              </p>
             </div>
             <div class="services_box services_box--credit">
               <h3 class="services_box_title">Кредит</h3>
               <p class="services_box_text">Залезть в долговую яму стало проще! </p>
               <p class="services_box_text">Кредитные консультанты придут вам на помощь.</p>
-              <a href="#" class="services_box--guarantee-button link">ОТПРАВИТЬ ЗАЯВКУ</a>
+              <a href="#" class="services_box--guarantee-button link"><span
+                  class="services_box--guarantee-button_padding">ОТПРАВИТЬ ЗАЯВКУ</span></a>
             </div>
           </div>
         </section>
@@ -316,7 +342,7 @@
       <div class="container-main-bg-light">
         <div class="container-main-third center">
           <section class="about">
-            <h2 class="about_title">Компания «Техномарт»</h2>
+            <h2 class="about_title">Компания<span class="about_title_laquo">&laquo;</span>Техномарт&raquo;</h2>
             <p class="about_text about-text-top">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для
               <br>
               ремонта и строительства не оставит равнодушными любителей сэкономить на <br>
@@ -326,8 +352,8 @@
             <p class="about_text"> Техномарт работает со многими транспортными компаниями:</p>
             <ul class="shipping-company-list list">
               <li class="shipping-company-list_item">Деловые линии</li>
-              <li class="shipping-company-list_item">Автотрейдинг</li>
-              <li class="shipping-company-list_item">ЖелДорЭкспедиция</li>
+              <li class="shipping-company-list_item shipping-company-list_item_2">Автотрейдинг</li>
+              <li class="shipping-company-list_item shipping-company-list_item_3">ЖелДорЭкспедиция</li>
             </ul>
             <a href="#" class="about_link link">Подробнее о компании</a>
           </section>
@@ -421,10 +447,11 @@
     </div>
   </footer>
 
-
-  <!--<section class="contact-form-container">
+<!--
+  <section class="contact-form-container">
     <button type="button" class="button-close"></button>
     <form action="https://echo.htmlacademy.ru" method="post" class="contact-form">
+      <div class="contact-form-box-top">
       <p class="contact-form_item">
         <label for="name" class="contact-form_label">Ваше имя:</label>
         <input id="name" type="text" name="name" placeholder="Имя Фамилия" class="contact-form_input">
@@ -438,12 +465,15 @@
         <textarea id="text" name="text" placeholder="В свободной форме" rows="7"
           class="contact-form_input contact-form_input_textarea"></textarea>
       </p>
-      <button type="submit" class="button-submit">Отправить</button>
+    </div>
+      <div class="button-submit-bg">
+        <button type="submit" class="button-submit">Отправить</button>
+      </div>
     </form>
   </section>
-Заготовки для поп-ап  <section class="map">
+  Заготовки для поп-ап <section class="map">
     <button type="button" class="button-close"></button>
-    </section>
+  </section>
 -->
 </body>
 
