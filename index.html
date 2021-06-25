@@ -9,7 +9,7 @@
   <link rel="apple-touch-icon" href="img/favicons/180.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body class="page-body">
@@ -50,17 +50,12 @@
       <div class="main-header-center center">
         <h1 class="main-title">Интернет-магазин <br>строительных материалов <br>и инструментов для ремонта</h1>
         <div class="location-box">
-          <a href="tel:+78005558628" class="location-box_phone link">
-            <img src="img/icons/icon-phone.svg" width="19" height="19" alt="Корзина" class="icon-phone image">
-            <span class="span-phone">+7 800 555-86-28</span>
-          </a>
+          <a href="tel:+78005558628" class="location-box_phone link"> +7 800 555-86-28 </a>
           <p class="location-box_address">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
         </div>
         <ul class="authorization-menu list">
           <li class="authorization-menu_item">
-            <a href="#" class="login-link link">
-              <span class="for-hover">Войти</span>
-            </a>
+            <a href="#" class="login-link link"> Войти </a>
           </li>
           <li class="authorization-menu_item">
             <a href="#" class="registration-link link">Регистрация</a>
@@ -421,7 +416,7 @@
     <div class="container-main-footer-bg-dark">
       <div class="main-footer_second-container center">
         <div class="footer-copyright-box">
-          <p class="footer-copyright">© 2010–2021 Компания «Техномарт»</p>
+          <p class="footer-copyright">© 2010<span class="copyright-padding-span">-2021 Компания</span>«Техномарт»</p>
           <p class="footer-copyright">Все права защищены</p>
         </div>
         <div class="socials">
@@ -446,35 +441,39 @@
       </div>
     </div>
   </footer>
-
-<!--
   <section class="contact-form-container">
+    <h2 class="visually-hidden">Связаться с нами</h2>
     <button type="button" class="button-close"></button>
     <form action="https://echo.htmlacademy.ru" method="post" class="contact-form">
       <div class="contact-form-box-top">
-      <p class="contact-form_item">
-        <label for="name" class="contact-form_label">Ваше имя:</label>
-        <input id="name" type="text" name="name" placeholder="Имя Фамилия" class="contact-form_input">
-      </p>
-      <p class="contact-form_item">
-        <label for="email" class="contact-form_label">Ваш e-mail:</label>
-        <input id="email" type="email" name="email" placeholder="email@example.com" class="contact-form_input">
-      </p>
-      <p class="contact-form_item">
-        <label for="text" class="contact-form_label">Текст письма:</label>
-        <textarea id="text" name="text" placeholder="В свободной форме" rows="7"
-          class="contact-form_input contact-form_input_textarea"></textarea>
-      </p>
-    </div>
+        <p class="contact-form_item">
+          <label for="name" class="contact-form_label">Ваше имя:</label>
+          <input id="name" type="text" name="name" placeholder="Имя Фамилия" class="contact-form_input">
+        </p>
+        <p class="contact-form_item">
+          <label for="email" class="contact-form_label">Ваш e-mail:</label>
+          <input id="email" type="email" name="email" placeholder="email@example.com" class="contact-form_input">
+        </p>
+        <p class="contact-form_item">
+          <label for="text" class="contact-form_label">Текст письма:</label>
+          <textarea id="text" name="text" placeholder="В свободной форме" rows="7"
+            class="contact-form_input contact-form_input_textarea"></textarea>
+        </p>
+      </div>
       <div class="button-submit-bg">
         <button type="submit" class="button-submit">Отправить</button>
       </div>
     </form>
   </section>
-  Заготовки для поп-ап <section class="map">
-    <button type="button" class="button-close"></button>
+  <section class="modal-map">
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <iframe class="modal-map-iframe"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d249.60265397785207!2d30.317420691610398!3d59.96828881591671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696315bc48a26c9%3A0x8a49e1486716f5b1!2z0L3QsNCxLiBQ0LXQutC4INCa0LDRgNC_0L7QstC60LgsIDXQnywg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGB0LjRjywgMTk3MDIy!5e0!3m2!1sru!2sfr!4v1624566061263!5m2!1sru!2sfr"
+      width="940" height="448" allowfullscreen
+      title="Офис компании по адресу набережная реки Карповки, 5, литера П, Санкт-Петербург"></iframe>
+    <button type="button" class="button-close button-close-map"></button>
   </section>
--->
+
 </body>
 
 </html>
