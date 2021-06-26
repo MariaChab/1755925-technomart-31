@@ -2674,12 +2674,13 @@ display: none;
   color: var(--basic-red);
   opacity: 100%;
   border-bottom: none;
-  cursor: default;
 }
 
 .sorting_options_item_current:hover {
   border-bottom: none;
-  cursor: default;
+  color: var(--basic-black);
+  border-bottom: solid 1px var(--basic-red);
+  cursor: pointer;
 }
 
 .sorting_options_item_price {
@@ -2724,7 +2725,11 @@ display: none;
 .sorting_order_upward.current {
   background-image: url("../img/icons/icon-dir-up.svg");
   background-repeat: no-repeat;
-  cursor: default;
+}
+
+.sorting_order_upward.current:hover {
+  background-image: url("../img/icons/icon-dir-up-black.svg");
+  background-repeat: no-repeat;
 }
 
 .sorting_order_downward {
@@ -2737,6 +2742,10 @@ background-image: url("../img/icons/icon-dir-down.svg");
 
 .sorting_order_downward.current {
   background-image: url("../img/icons/icon-dir-down-red.svg");
+}
+
+.sorting_order_downward.current:hover {
+  background-image: url("../img/icons/icon-dir-down-black.svg");
 }
 
 .battery-power-supply-perforators_title {
