@@ -698,35 +698,35 @@ background-color: var(--basic-green);
 .promo-box--materials {
   background-color: var(--special-yellow);
   background-image: url("../img/icons/catalog_new.svg"),
-                    url("../img/icons/icons-promo/icon-1-paint.svg");
+                    url("../img/icons/promo/icon-1-paint.svg");
   background-repeat: no-repeat;
   background-position: right top, right 43px top 31px;
 }
 
 .promo-box--tools {
   background-color: var(--special-sky-blue);
-  background-image: url("../img/icons/icons-promo/icon-2-drill.svg");
+  background-image: url("../img/icons/promo/icon-2-drill.svg");
   background-repeat: no-repeat;
   background-position: right 31px top 34px;
 }
 
 .promo-box--machinery {
   background-color: var(--special-lilaс);
-  background-image: url("../img/icons/icons-promo/icon-3-tractor.svg");
+  background-image: url("../img/icons/promo/icon-3-tractor.svg");
   background-repeat: no-repeat;
   background-position: right 31px top 31px;
 }
 
 .promo-box--discount {
   background-color: var(--special-light-green);
-  background-image: url("../img/icons/icons-promo/icon-4-basket.svg");
+  background-image: url("../img/icons/promo/icon-4-basket.svg");
   background-repeat: no-repeat;
   background-position: right 45px top 26px;
 }
 
 .promo-box--delivery {
   background-color: var(--special-yellow);
-  background-image: url("../img/icons/icons-promo/icon-5-truck.svg");
+  background-image: url("../img/icons/promo/icon-5-truck.svg");
   background-repeat: no-repeat;
   background-position: right 32px top 31px;
 }
